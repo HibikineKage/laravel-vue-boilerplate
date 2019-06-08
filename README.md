@@ -31,3 +31,9 @@ npx composer install
 ```bash
 npx npm-docker i
 ```
+
+### Nginx Reload
+
+```bash
+docker-compose exec web nginx -s reload
+```
