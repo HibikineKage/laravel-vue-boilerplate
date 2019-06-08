@@ -4,6 +4,13 @@
 
 - Docker
 - Docker Compose
+- node > 8
+
+## Install
+
+```bash
+npx dev-init
+```
 
 ### バックグラウンドでDocker立てる
 
