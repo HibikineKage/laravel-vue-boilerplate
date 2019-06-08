@@ -49,6 +49,6 @@ services:
     volumes:
       - ./app:/app
     command: 
-      - "bash -c 'npm i && npm watch'"
+      - "npm run docker-dev"
 volumes:
   mysql-data:
