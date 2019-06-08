@@ -9,13 +9,13 @@
 ## Install
 
 ```bash
-npx dev-init
+npm run dev-init
 ```
 
 ### バックグラウンドでDocker立てる
 
 ```bash
-npx start -- -d
+npm run start -- -d
 ```
 
 ### composerを叩く
@@ -23,13 +23,13 @@ npx start -- -d
 docker立ってる前提
 
 ```bash
-npx composer install
+npm run composer install
 ```
 
 ### npm i
 
 ```bash
-npx npm-docker i
+npm run npm-docker i
 ```
 
 ### Nginx Reload
