@@ -1,2 +1,3 @@
-/log/nginx/*.log
+/log/nginx/error.log
+/log/nginx/access.log
 /node_modules/
