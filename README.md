@@ -10,6 +10,7 @@
 
 ```bash
 npm run dev-init
+npm start
 ```
 
 ### バックグラウンドでDocker立てる
@@ -23,13 +24,13 @@ npm run start -- -d
 docker立ってる前提
 
 ```bash
-npm run composer install
+npm run composer -- install
 ```
 
 ### npm i
 
 ```bash
-npm run npm-docker i
+npm run npm-docker -- i hoge
 ```
 
 ### Nginx Reload
