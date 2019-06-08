@@ -48,7 +48,6 @@ services:
     tty: true
     volumes:
       - ./app:/app
-    command: 
-      - "npm run docker-dev"
+    command: "npm run docker-dev"
 volumes:
   mysql-data:
