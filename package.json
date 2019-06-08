@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "dev-server-start": "webpack-dev-server"
+    "start": "docker-compose up --build"
   }
 }
