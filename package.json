@@ -1,5 +1,7 @@
 {
   "scripts": {
-    "start": "docker-compose up --build"
+    "start": "docker-compose up --build",
+    "app-bash": "docker-compose exec app bash",
+    "composer": "docker-compose exec app /usr/local/bin/composer"
   }
 }
