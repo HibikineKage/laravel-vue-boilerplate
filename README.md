@@ -10,7 +10,13 @@
 
 ```bash
 npm run dev-init
-npm start
+npm run container-init
+```
+
+### Start Dev Server
+
+```bash
+npm run start
 ```
 
 ### バックグラウンドでDocker立てる
@@ -38,3 +44,11 @@ npm run npm-docker -- i hoge
 ```bash
 docker-compose exec web nginx -s reload
 ```
+
+### Windows環境でSymlink周りのエラーが出る
+
+npmのbin周りでEPROTO: protocol errorが出る時
+
+https://qiita.com/horikeso/items/1231208252f2fbf4414c
+
+Docker Toolboxを使っている人は、もし通常ユーザーで起動してしまったら、VirtualBoxから一旦落とすか再起動する
