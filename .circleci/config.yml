@@ -36,7 +36,7 @@ jobs:
       - save_cache:
           key: composer-v1-{{ checksum "app/composer.lock" }}
           paths:
-            - vendor
+            - app/vendor
 
       # node cache
 
@@ -44,12 +44,15 @@ jobs:
           keys:
             - node-v4-{{ checksum "package.json" }}
             - node-v4-
-      - run: npm install
+      - run:
+          working_directory: app
+          command: npm install
       - save_cache:
           key: node-v4-{{ checksum "package.json" }}
           paths:
-            - node_modules
-            - ~/.yarn
+            - app/node_modules
 
       # run tests with phpunit or codecept
-      - run: ./vendor/bin/phpunit
+      - run:
+          command: ./vendor/bin/phpunit
+          working_directory: app

@@ -1,6 +1,7 @@
 # Laravel Docker Boilerplate
 
 [![CircleCI](https://circleci.com/gh/HibikineKage/laravel-vue-boilerplate.svg?style=svg)](https://circleci.com/gh/HibikineKage/laravel-vue-boilerplate)
+[![StyleCI](https://github.styleci.io/repos/190865932/shield?branch=master)](https://github.styleci.io/repos/190865932)
 
 ## Requirements
 
