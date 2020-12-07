@@ -8,7 +8,7 @@
     "docker-npm": "docker-compose exec node /usr/local/bin/npm"
   },
   "devDependencies": {
-    "husky": "^2.4.0",
+    "husky": "^4.3.5",
     "lint-staged": "^8.2.0"
   },
   "husky": {
